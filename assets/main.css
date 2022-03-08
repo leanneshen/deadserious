@@ -1,4 +1,5 @@
 @import url("fontawesome-all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
 /*
@@ -2028,19 +2029,21 @@ ul.social li a:before {
 }
 
 ul.social li a.fa-facebook {
-  background: #3c5a98;
+  background: #3b5998;
+  color: white;
 }
 
 ul.social li a.fa-facebook:hover {
-  background: #4c6aa8;
+  opacity: 0.7;
 }
 
-ul.social li a.fa-twitter {
-  background: #2daae4;
+ul.social li a.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
-ul.social li a.fa-twitter:hover {
-  background: #3dbaf4;
+ul.social li a.fa-instagram:hover {
+  opacity: 0.7;
 }
 
 /* Icons */
@@ -2363,7 +2366,7 @@ ul.social li a.fa-twitter:hover {
 
 #footer {
   position: relative;
-  color: #858484;
+  color: #5e5e5e;
   padding: 4em 0;
 }
 
